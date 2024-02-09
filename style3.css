@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    transition: 0.9s;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 30px;
+}
+
+.scale {
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.text {
+    padding: 30px;
+}
+
+.img img:hover {
+    scale: 1.2;
+}
